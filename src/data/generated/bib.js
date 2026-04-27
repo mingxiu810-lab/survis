@@ -1,17 +1,143 @@
-﻿const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
-        "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
-        "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
-        "volume": "22",
-        "year": "2016"
-    }
+const generatedBibEntries = {
+  "lu2012ans": {
+    "author": "Lü, Zhipeng and Hao, Jin-Kao",
+    "doi": "10.1016/j.ejor.2011.12.016",
+    "journal": "European Journal of Operational Research",
+    "keywords": "type:metaheuristic, adaptive_neighborhood_search, nurse_rostering, optimization",
+    "number": "3",
+    "pages": "865--876",
+    "title": "Adaptive neighborhood search for nurse rostering",
+    "type": "article",
+    "volume": "218",
+    "year": "2012"
+  },
+  "bai2010hybrid": {
+    "author": "Bai, Ruibin and Burke, Edmund K and Kendall, Graham and Li, Jingpeng and McCollum, Barry",
+    "doi": "10.1109/TEVC.2009.2033583",
+    "journal": "IEEE Transactions on Evolutionary Computation",
+    "keywords": "type:hybrid, evolutionary_algorithm, nurse_rostering, optimization",
+    "number": "4",
+    "pages": "580--590",
+    "title": "A hybrid evolutionary approach to the nurse rostering problem",
+    "type": "article",
+    "volume": "14",
+    "year": "2010"
+  },
+  "abdelghany2020vnsdp": {
+    "author": "Abdelghany, Ahmed and Eltawil, Amr",
+    "doi": "10.3934/jimo.2020058",
+    "journal": "Journal of Industrial and Management Optimization",
+    "keywords": "type:hybrid, variable_neighbourhood_search, dynamic_programming, nurse_rostering",
+    "number": "6",
+    "pages": "3011--3030",
+    "title": "A hybrid variable neighbourhood search and dynamic programming approach for the nurse rostering problem",
+    "type": "article",
+    "volume": "16",
+    "year": "2020"
+  },
+  "kheiri2021hmm": {
+    "author": "Kheiri, Ahmed and others",
+    "doi": "10.1016/j.cor.2021.105221",
+    "journal": "Computers & Operations Research",
+    "keywords": "type:hyperheuristic, hidden_markov_model, multi_stage, nurse_rostering",
+    "pages": "105221",
+    "title": "A hyper-heuristic approach based upon a hidden Markov model for the multi-stage nurse rostering problem",
+    "type": "article",
+    "volume": "127",
+    "year": "2021"
+  },
+  "burke2004iga": {
+    "author": "Burke, Edmund K and De Causmaecker, Patrick and Vanden Berghe, Greet and Van Landeghem, Hendrik",
+    "doi": "10.1016/S0305-0548(03)00034-0",
+    "journal": "Computers & Operations Research",
+    "keywords": "type:metaheuristic, indirect_genetic_algorithm, nurse_scheduling, optimization",
+    "number": "5",
+    "pages": "761--778",
+    "title": "An indirect genetic algorithm for a nurse scheduling problem",
+    "type": "article",
+    "volume": "31",
+    "year": "2004"
+  },
+  "ngo2022survey": {
+    "author": "Ngo, Anh T and others",
+    "doi": "10.1109/ACCESS.2022.3177280",
+    "journal": "IEEE Access",
+    "keywords": "type:survey, literature_review, nurse_rostering, emerging_trends",
+    "pages": "65374--65402",
+    "title": "A survey of the nurse rostering solution methodologies: The state-of-the-art and emerging trends",
+    "type": "article",
+    "volume": "10",
+    "year": "2022"
+  },
+  "dellacroce2014matheuristic": {
+    "author": "Della Croce, Federico and Salassa, Fabio",
+    "doi": "10.1007/s10479-012-1235-x",
+    "journal": "Annals of Operations Research",
+    "keywords": "type:hybrid, matheuristic, variable_neighborhood_search, nurse_rostering",
+    "number": "1",
+    "pages": "185--199",
+    "title": "A variable neighborhood search based matheuristic for nurse rostering problems",
+    "type": "article",
+    "volume": "218",
+    "year": "2014"
+  },
+  "burke2000ga": {
+    "author": "Burke, Edmund K and others",
+    "doi": "10.1002/(SICI)1099-1425(200005/06)3:3<139::AID-JOS41>3.0.CO;2-2",
+    "journal": "Journal of Scheduling",
+    "keywords": "type:metaheuristic, genetic_algorithm, problem_structure, nurse_rostering",
+    "number": "3",
+    "pages": "139--153",
+    "title": "Exploiting problem structure in a genetic algorithm approach to a nurse rostering problem",
+    "type": "article",
+    "volume": "3",
+    "year": "2000"
+  },
+  "cheang2003survey": {
+    "author": "Cheang, Brenda and Li, Haibing and Lim, Andrew and Rodrigues, Brian",
+    "doi": "10.1016/S0377-2217(03)00021-3",
+    "journal": "European Journal of Operational Research",
+    "keywords": "type:survey, bibliographic_survey, nurse_rostering, optimization",
+    "number": "3",
+    "pages": "447--460",
+    "title": "Nurse rostering problems: A bibliographic survey",
+    "type": "article",
+    "volume": "151",
+    "year": "2003"
+  },
+  "dowsland1998tabu": {
+    "author": "Dowsland, Kathryn A",
+    "doi": "10.1016/S0377-2217(97)00281-6",
+    "journal": "European Journal of Operational Research",
+    "keywords": "type:metaheuristic, tabu_search, strategic_oscillation, nurse_scheduling",
+    "number": "2-3",
+    "pages": "393--407",
+    "title": "Nurse scheduling with tabu search and strategic oscillation",
+    "type": "article",
+    "volume": "106",
+    "year": "1998"
+  },
+  "bard2005column": {
+    "author": "Bard, Jonathan F and Purnomo, Hadi W",
+    "doi": "10.1016/j.ejor.2003.06.046",
+    "journal": "European Journal of Operational Research",
+    "keywords": "type:mathematical_optimization, column_generation, preference_scheduling, nurse_scheduling",
+    "number": "2",
+    "pages": "510--534",
+    "title": "Preference scheduling for nurses using column generation",
+    "type": "article",
+    "volume": "164",
+    "year": "2005"
+  },
+  "muklason2024rl": {
+    "author": "Muklason, Ahmad and others",
+    "doi": "10.1016/j.procs.2024.03.031",
+    "journal": "Procedia Computer Science",
+    "keywords": "type:hyperheuristic, reinforcement_learning, simulated_annealing, nurse_rostering",
+    "pages": "XXX--XXX",
+    "title": "Solving nurse rostering optimization problem using reinforcement learning - simulated annealing with reheating hyper-heuristics algorithm",
+    "type": "article",
+    "volume": "232",
+    "year": "2024"
+  }
 };
